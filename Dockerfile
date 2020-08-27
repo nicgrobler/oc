@@ -6,8 +6,8 @@ RUN apt-get update \
     gzip \
     wget \
     && cd /opt \
-    && wget https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.2.12/openshift-client-linux-4.2.12.tar.gz \
-    && tar -zxf openshift-client-linux-4.2.12.tar.gz \
+    && wget https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.3.2/openshift-client-linux-4.3.2.tar.gz \
+    && tar -zxf openshift-client-linux-4.3.2.tar.gz \
     && cp oc /usr/local/bin/ \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
